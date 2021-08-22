@@ -8,6 +8,8 @@
     user-select: none;
 }
 
+
+
 .header__logo{
     margin: 10px 0;
     width: 70px;
@@ -348,4 +350,16 @@
 
 .logo{
     width: 60px;
+}
+
+@media (max-width: 1400px){
+    .logo{
+        display: none;
+    }
+}
+@media (max-width: 1200px){}
+@media (max-width: 992px){}
+@media (max-width: 768px){}
+@media (max-width: 546px){
+    
 }
